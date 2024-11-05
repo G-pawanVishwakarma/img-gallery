@@ -20,4 +20,4 @@ export default function searchResult({ params: { myParams } }: Props) {
   const page = myParams?.[1] ?? '1'
   return <Gallery topic={topic} page={page} />
 
-}
+} 
